@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore top-notch construction services with a focus on quality, durability, and innovation. From planning to execution, we build your dreams into reality!"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Construction," />
+    <meta name="author" content="Harun Shaikh" />
+    <title>Indigo Construction</title>
+    <!-------- fav-icon ---------->
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon" />
+    <!-------- google fonts ---------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-------- remix icon ---------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--------  font-awesome ---------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-------- swiper js ---------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-------- swiper script tag ---------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
+    <!-------- styling css ---------->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-------- responsive css ---------->
+    <link rel="stylesheet" href="css\responsive.css" />
+    <!-------- js---file ---------->
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-------- HEADER-SECTION-START ---------->
+    <header class="header">
+      <nav class="wrapper nav-bar">
+        <a href="#home.html" class="logo">
+          <h2>
+            <span>I</span>
+            <span>N</span>
+            <span>D</span>
+            <span>I</span>
+            <span>G</span>
+            <span>O</span>
+          </h2>
+          <p>CONSTRUCTION</p>
+        </a>
+        <div class="nav-links">
+          <ul class="links">
+            <div class="close-area">
+              <i class="ri-close-line" id="close-line"></i>
+            </div>
+            <li><a href="#home.html">HOME</a></li>
+            <li><a href="/about.html">ABOUT US</a></li>
+            <li><a href="/service.html">SERVICES</a></li>
+            <li><a href="/project.html">PROJECTS</a></li>
+            <li><a href="/blog.html">BLOG</a></li>
+            <li><a href="/contact.html">CONTACT US</a></li>
+          </ul>
+
+          <div class="theme-toggle mode-btn">
+            <span id="theme-text">Dark</span>
+            <img src="/image/moon.svg" id="theme-icon" alt="mode-icon" />
+          </div>
+          <i class="ri-menu-3-line" id="menu-line"></i>
+        </div>
+      </nav>
+    </header>
+    <!--------- MAIN-CONTAINT ------------>
+    <main class="main">
+      <!-------- HERO-SECTION-START ---------->
+      <section id="home" class="hero">
+        <video
+          src="/videos/200935-914521037_large.mp4"
+          class="bg-video"
+          style="width: 100%; height: auto"
+          autoplay
+          loop
+          muted
+        ></video>
+
+        <div class="hero-text">
+          <h1>BUILD. INVEST <br />INNOVATE</h1>
+          <p>Commercial Construction</p>
+          <a href="/contact.html" class="hero-btn btn">
+            FREE CONSULTATION
+            <i class="ri-arrow-right-long-line"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-------- services-section-&&-about-section -------->
+      <section class="background-gradient-wrapper">
+        <!-------- SERVICES-SECTION-START ---------->
+        <section class="services wrapper">
+          <div class="service-wrapper">
+            <div class="services-text">
+              <p class="service-text title">OUR SERVICES</p>
+              <h3 class="service-heading heading">
+                HIGH QUALITY CONSTRUCTION SOLUTIONS FOR RESIDENTIALS &
+                INDUSTRIES!
+              </h3>
+            </div>
+          </div>
+          <!-- cards -->
+          <div class="cards-container">
+            <div class="card">
+              <h4>New Construction</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel nibh dapi bus, tincidunt libero quis, maximus
+                adipiscing elit. Curabitur vel nibh dapi bus, tincidunt libero
+                quis, maximus sapien. Sed vitae molestie mauris.
+              </p>
+              <a href="/service.html" class="card-btn">LEARN MORE</a>
+            </div>
+
+            <div class="card">
+              <h4>Design-Build</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel nibh dapi bus, tincidunt libero quis, maximus
+                adipiscing elit. Curabitur vel nibh dapi bus, tincidunt libero
+                quis, maximus sapien. Sed vitae molestie mauris.
+              </p>
+              <a href="/service.html" class="card-btn">LEARN MORE</a>
+            </div>
+
+            <div class="card">
+              <h4>Remodels & Renovations</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel nibh dapi bus, tincidunt libero quis, maximus
+                adipiscing elit. Curabitur vel nibh dapi bus, tincidunt libero
+                quis, maximus sapien. Sed vitae molestie mauris.
+              </p>
+              <a href="/service.html" class="card-btn">LEARN MORE</a>
+            </div>
+
+            <div class="card">
+              <h4>Interior Design</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel nibh dapi bus, tincidunt libero quis, maximus
+                adipiscing elit. Curabitur vel nibh dapi bus, tincidunt libero
+                quis, maximus sapien. Sed vitae molestie mauris.
+              </p>
+              <a href="/service.html" class="card-btn">LEARN MORE</a>
+            </div>
+
+            <div class="card">
+              <h4>Site Improvements</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel nibh dapi bus, tincidunt libero quis, maximus
+                adipiscing elit. Curabitur vel nibh dapi bus, tincidunt libero
+                quis, maximus sapien. Sed vitae molestie mauris.
+              </p>
+              <a href="/service.html" class="card-btn">LEARN MORE</a>
+            </div>
+
+            <div class="card">
+              <h4>Construction Consult</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vel nibh dapi bus, tincidunt libero quis, maximus
+                adipiscing elit. Curabitur vel nibh dapi bus, tincidunt libero
+                quis, maximus sapien. Sed vitae molestie mauris.
+              </p>
+              <a href="/service.html" class="card-btn">LEARN MORE</a>
+            </div>
+          </div>
+        </section>
+
+        <!-------- ABOUT-SECTION-START ---------->
+        <section class="about wrapper">
+          <div class="about-image">
+            <img
+              class="owenr-image"
+              src="image\1731914441313_2_11zon_1_11zon.webp"
+              alt="about-image"
+            />
+          </div>
+
+          <div class="about-text">
+            <p class="about-title title">WHO WE ARE</p>
+            <h3 class="about-heading heading">
+              WE MAKE <br />
+              FINEST ARCHITECTURAL <br />DESIGN WITH GREAT PASSION
+            </h3>
+            <p class="about-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              nibh dapibus, tincidunt libero quis, maximus sapien. Sed vitae
+              molestie mauris. Nullam commodo blandit nibh, quis vestibulum diam
+              suscipit non. Sed et ligula dapibus, pulvinar neque vitae, ornare
+              ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Curabitur vel molestie mauris. Nullam commodo blandit nibh, quis
+              vestibulum diam
+              <br />
+            </p>
+            <div class="about-me">
+              <div class="about-icon">
+                <i class="fa-solid fa-user-tie"></i
+                ><span>Professional <br />Team</span>
+              </div>
+              <div class="about-icon">
+                <i class="fa-solid fa-bell-concierge"></i
+                ><span>Quality <br />Service</span>
+              </div>
+            </div>
+
+            <a href="/about.html" class="about-btn btn">LEARN MORE</a>
+          </div>
+        </section>
+      </section>
+
+      <!-------- PROJECTS-SECTION-START ---------->
+      <section class="projects-section">
+        <div class="project-container wrapper">
+          <p class="project-title title">OUR PROJECTS</p>
+          <div class="projects-text">
+            <div class="text-area">
+              <h3 class="project-heading heading">RECENTLY COMPLETEDWORKS</h3>
+              <a href="/project.html" class="project-btn btn"
+                >VIEW ALL PROJECTS</a
+              >
+            </div>
+          </div>
+
+          <div class="projects-area">
+            <div class="project">
+              <img
+                src="image\photo-1525455246407-8111c4cdb982_2_11zon.webp"
+                alt="project-image-1"
+              />
+              <div class="overlay-img">
+                <a href="#project.html">Project 1</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img
+                src="image\photo-1529307474719-3d0a417aaf8a_5_11zon_3_11zon.webp"
+                alt="project-image-2"
+              />
+              <div class="overlay-img">
+                <a href="#project.html">Project 2</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img
+                src="image\photo-1691425647557-41b5fb02bf09_4_11zon.webp"
+                alt="project-image-3"
+              />
+              <div class="overlay-img">
+                <a href="#project.html">Project 3</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img
+                src="image\photo-1691425649509-e9c32c385beb_6_11zon.webp"
+                alt="project-image-4"
+              />
+              <div class="overlay-img">
+                <a href="3project.html">Project 4</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img
+                src="image\photo-1691425649635-fb54ea1c411c_7_11zon.webp"
+                alt="project-image-5"
+              />
+              <div class="overlay-img">
+                <a href="#project.html">Project 5</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <img
+                src="image\photo-1691425648798-16a9b43e2773_5_11zon.webp"
+                alt="project-image-6"
+              />
+              <div class="overlay-img">
+                <a href="#project.html">Project 6</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------- TESTIMONIALS-SECTION-START ---------->
+      <section class="testimonial">
+        <div class="testimonial-container">
+          <div class="testimonial-text-area">
+            <p class="testimonial-title title">TESTIMONIALS</p>
+            <h3 class="testimonial-head heading">WHAT OUR CLIENT SAY</h3>
+          </div>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="client">
+                  <div class="client-img-reviwe">
+                    <img src="image\image-thomas.jpg" alt="client-1" />
+                    <div class="client-name-reviwe">
+                      <p class="client-name">Jhon Doe</p>
+                      <p class="city">Florida</p>
+                      <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client-feedback">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Curabi- <br />
+                      tur vel nibh dapibus, tincidunt libero quis, maximus
+                      sapien. Sed <br />
+                      vitae molestie mauris. Nullam commodo blandit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client">
+                  <div class="client-img-reviwe">
+                    <img src="image\image-emily.jpg" alt="client-2" />
+                    <div class="client-name-reviwe">
+                      <p class="client-name">Emily Rai</p>
+                      <p class="city">Florida</p>
+                      <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client-feedback">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Curabi- <br />
+                      tur vel nibh dapibus, tincidunt libero quis, maximus
+                      sapien. Sed <br />
+                      vitae molestie mauris. Nullam commodo blandit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client">
+                  <div class="client-img-reviwe">
+                    <img src="image\review-3.jpg" alt="client-3" />
+                    <div class="client-name-reviwe">
+                      <p class="client-name">Henry Jam</p>
+                      <p class="city">Florida</p>
+                      <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client-feedback">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Curabi- <br />
+                      tur vel nibh dapibus, tincidunt libero quis, maximus
+                      sapien. Sed <br />
+                      vitae molestie mauris. Nullam commodo blandit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client">
+                  <div class="client-img-reviwe">
+                    <img src="image\image-jennie.jpg" alt="client-4" />
+                    <div class="client-name-reviwe">
+                      <p class="client-name">Jack Bro</p>
+                      <p class="city">Florida</p>
+                      <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client-feedback">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Curabi- <br />
+                      tur vel nibh dapibus, tincidunt libero quis, maximus
+                      sapien. Sed <br />
+                      vitae molestie mauris. Nullam commodo blandit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client">
+                  <div class="client-img-reviwe">
+                    <img src="image\review-3.jpg" alt="client-5" />
+                    <div class="client-name-reviwe">
+                      <p class="client-name">Ameli Roy</p>
+                      <p class="city">Florida</p>
+                      <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client-feedback">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Curabi- <br />
+                      tur vel nibh dapibus, tincidunt libero quis, maximus
+                      sapien. Sed <br />
+                      vitae molestie mauris. Nullam commodo blandit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="client">
+                  <div class="client-img-reviwe">
+                    <img src="image\image-emily.jpg" alt="client-6" />
+                    <div class="client-name-reviwe">
+                      <p class="client-name">Emma Evel</p>
+                      <p class="city">Florida</p>
+                      <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="client-feedback">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Curabi- <br />
+                      tur vel nibh dapibus, tincidunt libero quis, maximus
+                      sapien. Sed <br />
+                      vitae molestie mauris. Nullam commodo blandit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-------- WORK-COUNTER-SECTION-START ---------->
+      <section class="work-data">
+        <div class="counters wrapper">
+          <div class="project-counter counter-feed">
+            <p class="count-num" data-number="10500">10500+</p>
+            <p class="name">PROJECTS</p>
+          </div>
+
+          <div class="client-counter counter-feed">
+            <p class="count-num" data-number="10000">10000+</p>
+            <p class="name">HAPPY CLIENTS</p>
+          </div>
+
+          <div class="experience-counter counter-feed">
+            <p class="count-num" data-number="21000">21000+</p>
+            <p class="name">EXPERIENCE STUFF</p>
+          </div>
+
+          <div class="machineries-counter counter-feed">
+            <p class="count-num" data-number="25000">25000+</p>
+            <p class="name">MACHINERIES</p>
+          </div>
+        </div>
+      </section>
+
+      <!-------- blog-section-&&-contact-section -------->
+      <section class="background-gradient-wrapper">
+        <!-------- BLOG-SECTION-START ---------->
+        <section class="blog-section wrapper">
+          <div class="blog-text-area">
+            <p class="blog-title title">FROM THE BLOG</p>
+            <h3 class="blog-heading heading">NEWS & ARTICLES</h3>
+          </div>
+
+          <div class="blog-container">
+            <div class="blog--1 blog">
+              <video
+                src="videos\40814-426920963_large.mp4"
+                style="width: 100%; height: auto"
+                autoplay
+                loop
+                muted
+              ></video>
+
+              <div class="blog-texts-feed">
+                <h5>How to hire a Contractor Home Renovation</h5>
+                <p>
+                  repudiandae eaque voluptatum architecto. Ullam, eius.
+                  Laudantium tempore repellendus, blanditiis, adipisci veniam
+                  magnam vitae maiores nostrum maxime eos, alias voluptates
+                  inventore eaque aliquam soluta.....
+                </p>
+                <a href="/blog.html" class="blog-btn btn">LEARN MORE</a>
+              </div>
+            </div>
+
+            <div class="blog--2 blog">
+              <video
+                src="videos\40813-426920959_large.mp4"
+                style="width: 100%; height: auto"
+                autoplay
+                muted
+                loop
+              ></video>
+
+              <div class="blog-texts-feed">
+                <h5>How to hire a Contractor Home Renovation</h5>
+                <p>
+                  repudiandae eaque voluptatum architecto. Ullam, eius.
+                  Laudantium tempore repellendus, blanditiis, adipisci veniam
+                  magnam vitae maiores nostrum maxime eos, alias voluptates
+                  inventore eaque aliquam soluta.....
+                </p>
+                <a href="/blog.html" class="blog-btn btn">LEARN MORE</a>
+              </div>
+            </div>
+
+            <div class="blog--3 blog">
+              <video
+                src="videos\67460-522170651_large.mp4"
+                style="width: 100%; height: auto"
+                autoplay
+                muted
+                loop
+              ></video>
+              <div class="blog-texts-feed">
+                <h5>How to hire a Contractor Home Renovation</h5>
+                <p>
+                  repudiandae eaque voluptatum architecto. Ullam, eius.
+                  Laudantium tempore repellendus, blanditiis, adipisci veniam
+                  magnam vitae maiores nostrum maxime eos, alias voluptates
+                  inventore eaque aliquam soluta.....
+                </p>
+                <a href="/blog.html" class="blog-btn btn">LEARN MORE</a>
+              </div>
+            </div>
+
+            <div class="blog--4 blog">
+              <video
+                src="videos\148540-794355630_large.mp4"
+                style="width: 100%; height: auto"
+                autoplay
+                muted
+                loop
+              ></video>
+
+              <div class="blog-texts-feed">
+                <h5>How to hire a Contractor Home Renovation</h5>
+                <p>
+                  repudiandae eaque voluptatum architecto. Ullam, eius.
+                  Laudantium tempore repellendus, blanditiis, adipisci veniam
+                  magnam vitae maiores nostrum maxime eos, alias voluptates
+                  inventore eaque aliquam soluta.....
+                </p>
+                <a href="/blog.html" class="blog-btn btn">LEARN MORE</a>
+              </div>
+            </div>
+
+            <div class="blog--5 blog">
+              <video
+                src="videos\40816-426939512_large.mp4"
+                style="width: 100%; height: auto"
+                autoplay
+                muted
+                loop
+              ></video>
+
+              <div class="blog-texts-feed">
+                <h5>How to hire a Contractor Home Renovation</h5>
+                <p>
+                  repudiandae eaque voluptatum architecto. Ullam, eius.
+                  Laudantium tempore repellendus, blanditiis, adipisci veniam
+                  magnam vitae maiores nostrum maxime eos, alias voluptates
+                  inventore eaque aliquam soluta.....
+                </p>
+                <a href="/blog.html" class="blog-btn btn">LEARN MORE</a>
+              </div>
+            </div>
+
+            <div class="blog--6 blog">
+              <video
+                src="videos\85351-590746476_large.mp4"
+                style="width: 100%; height: auto"
+                autoplay
+                muted
+                loop
+              ></video>
+
+              <div class="blog-texts-feed">
+                <h5>How to hire a Contractor Home Renovation</h5>
+                <p>
+                  repudiandae eaque voluptatum architecto. Ullam, eius.
+                  Laudantium tempore repellendus, blanditiis, adipisci veniam
+                  magnam vitae maiores nostrum maxime eos, alias voluptates
+                  inventore eaque aliquam soluta.....
+                </p>
+                <a href="/blog.html" class="blog-btn btn">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-------- CONTACT-SECTION-START ---------->
+        <section class="contact">
+          <div class="contact-wrapper wrapper">
+            <div class="contact-me">
+              <p class="contact-heading">
+                Reach Us via the Details Listed Below
+              </p>
+
+              <div class="harun-email">
+                <i class="fa-solid fa-envelope"></i><b>:</b>
+                <a href="mailto:harunshaikh2324@gmail.com" class="mail"
+                  >harunshaikh2324@gmail.com</a
+                >
+              </div>
+              <div class="harun-number">
+                <i class="fa-solid fa-phone"></i><b>:</b>
+                <a href="tel:+919923241887" class="num">+91 9923241887</a>
+              </div>
+              <div class="harun-location">
+                <i class="fa-solid fa-location-dot"></i><b>:</b>
+                <a href="#" class="location"> Ahmednager Maharashtra 414001 </a>
+              </div>
+
+              <div class="social-icons">
+                <a href="https://github.com/Harunshaikh">
+                  <i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/harun-shaikh-web-developer/"
+                >
+                  <i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://x.com/_harunshaikh">
+                  <i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <p class="form-p title">Contact US</p>
+              <p class="form-head">
+                TELL US ABOUT YOUR <br />
+                WEBSITE PROJECT
+              </p>
+
+              <form
+                class="form"
+                action="https://formspree.io/f/xdkanbbl"
+                method="POST"
+              >
+                <div class="user-name">
+                  <input
+                    class="first-name"
+                    type="text"
+                    name="first-name"
+                    placeholder="First Name"
+                    required
+                    autocomplete="off"
+                  />
+                  <input
+                    class="last-name"
+                    type="text"
+                    name="last-name"
+                    placeholder="Last Name"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="email-msg">
+                  <input
+                    class="email"
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    autocomplete="off"
+                  />
+                  <textarea
+                    name="massage"
+                    id="massage"
+                    placeholder="Massage"
+                    autocomplete="off"
+                  ></textarea>
+                </div>
+                <button class="submit-btn btn">SEND</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-------- FOOTER-SECTION-START ---------->
+      <section class="footer">
+        <div class="footer-container wrapper">
+          <div class="made-by">
+            <p>Made With <span class="heart">&hearts;</span> By Harun Shaikh</p>
+          </div>
+          <div class="copyrights">
+            <p>&copy; 2025 indigo-construction. All Rights Reserved.</p>
+            <p class="privacy-term">
+              <a href="#privacy-policy">Privacy Policy</a> |
+              <a href="#terms-of-service">Terms of Service</a>
+            </p>
+          </div>
+        </div>
+        <div class="scroll-to-top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

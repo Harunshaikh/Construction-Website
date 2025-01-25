@@ -1,0 +1,217 @@
+/* -------------------- media -------------------- */
+@media screen and (width <= 970px) {
+    .projects-area {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8rem;
+    }
+    .project img {
+      aspect-ratio: 6/8;
+    }
+    #menu-line {
+      display: block;
+    }
+    .nav-links ul {
+      position: absolute;
+      height: 100dvh;
+      width: 60%;
+      top: 0;
+      right: -100%;
+      background: var(--bg-gradient-clr);
+      display: flex;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding-left: 2rem;
+      transition: 0.5s ease-in-out;
+    }
+  
+    .nav-links ul li a:hover {
+      -webkit-text-fill-color: var(--white-text-clr);
+    }
+    .nav-links ul li::after {
+      background: var(--white-text-clr);
+    }
+    #close-line {
+      display: block;
+      z-index: 1;
+      border: 2.5px solid var(--white-text-clr);
+    }
+    .close-area {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 4rem;
+    }
+  
+    .nav-links ul li a {
+      color: var(--white-text-clr);
+    }
+    .bg-video {
+      top: 5rem;
+    }
+  
+    .logo h2 span {
+      font-size: 2.5rem;
+      letter-spacing: -2px;
+    }
+    .logo p {
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+    .nav-links {
+      gap: 1.5rem;
+    }
+    .header {
+      padding-block: 0.6rem;
+    }
+    #theme-text {
+      font-size: 1.1rem;
+    }
+    .theme-toggle #theme-icon {
+      width: 2rem;
+      margin-left: 0.8rem;
+    }
+    .about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap-reverse;
+      gap: 6rem;
+      text-align: center;
+    }
+    .about-icon {
+      text-align: start;
+      justify-content: space-between;
+    }
+    .about-me {
+      justify-content: center;
+    }
+    .about-icon span {
+      font-size: 1.4rem;
+    }
+    .about-icon i {
+      font-size: 4rem;
+    }
+    .about-image {
+      max-width: 100%;
+    }
+    .about-text {
+      max-width: 100%;
+    }
+    .about-image .owenr-image {
+      max-width: 50%;
+    }
+    .contact-wrapper {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    .contact-form {
+      width: 100%;
+    }
+    .contact-me {
+      width: 100%;
+    }
+    .contact-heading {
+      max-width: 70%;
+      margin-inline: auto;
+    }
+    .contact-me {
+      margin-top: 1rem;
+    }
+    .scroll-to-top {
+      right: 0.6rem;
+    }
+    .about-btn {
+      justify-self: center;
+    }
+  }
+  @media screen and (width <= 400px) {
+    #theme-text {
+      font-size: 0.9rem;
+    }
+    .theme-toggle #theme-icon {
+      width: 1.7rem;
+      margin-left: 0.5rem;
+    }
+  
+    .hero-btn {
+      padding: 1.2rem 1rem;
+    }
+    .about-image .owenr-image {
+      max-width: 100%;
+    }
+    .about-image .owenr-image {
+      max-width: 100%;
+    }
+    .projects-text {
+      background: linear-gradient(to right, #2eafffdc, #ffffff00);
+    }
+    .blog {
+      border: 0.6px solid var(--border-clr);
+    }
+    .blog:hover {
+      border: 0.6px solid var(--border-hover-clr);
+    }
+    .harun-email i,
+    .harun-number i,
+    .harun-location i {
+      font-size: 2.5rem;
+    }
+  }
+  @media screen and (width <= 555px) {
+    .projects-area {
+      grid-template-columns: repeat(1, 300px);
+    }
+    .project img {
+      aspect-ratio: 6.5/10;
+    }
+    .nav-links ul {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-left: unset;
+    }
+    .close-area {
+      justify-content: center;
+      padding: unset;
+    }
+    .swiper {
+      max-width: 100%;
+    }
+    .swiper-wrapper {
+      padding-bottom: 3rem;
+    }
+    .counters {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .email-msg {
+      gap: 2.5rem;
+    }
+    .submit-btn {
+      font-size: 1rem;
+      border-radius: 0.4rem;
+    }
+    .user-name {
+      gap: 1rem;
+    }
+    .form {
+      gap: 1rem;
+    }
+    .social-icons {
+      gap: 1.8rem;
+    }
+    .scroll-to-top {
+      display: none;
+    }
+    .page-image{
+      aspect-ratio: 8/2.6;
+    }
+    .google-map iframe{
+      height: 200px
+    }
+  }
